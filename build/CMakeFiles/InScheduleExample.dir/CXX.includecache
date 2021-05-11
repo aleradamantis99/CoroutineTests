@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alejandro/Projects/testCppCoro/main_scheduleinside.cpp
+iostream
+-
+cppcoro/sync_wait.hpp
+-
+cppcoro/when_all.hpp
+-
+cppcoro/shared_task.hpp
+-
+cppcoro/task.hpp
+-
+thread
+-
+cppcoro/schedule_on.hpp
+-
+cppcoro/resume_on.hpp
+-
+cppcoro/static_thread_pool.hpp
+-
+

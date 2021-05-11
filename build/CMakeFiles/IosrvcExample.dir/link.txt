@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/IosrvcExample.dir/main_iosrvc.cpp.o  -o IosrvcExample  -lcppcoro -lpthread -luring 

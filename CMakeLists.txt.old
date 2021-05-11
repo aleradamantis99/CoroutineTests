@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(CppcoroTests)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+link_libraries(cppcoro pthread)
+add_compile_options(-fcoroutines -Wall -Wextra -pedantic)
+
+add_executable(FirstExample main.cpp)
+add_executable(JthreadExample main_jthread.cpp)
+add_executable(IosrvcExample main_iosrvc.cpp)
+add_executable(InScheduleExample main_scheduleinside.cpp)

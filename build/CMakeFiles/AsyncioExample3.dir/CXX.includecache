@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alejandro/Projects/testCppCoro/main_asyncio3.cpp
+fmt/core.h
+-
+nicer_syntax.hpp
+/home/alejandro/Projects/testCppCoro/nicer_syntax.hpp
+
+/home/alejandro/Projects/testCppCoro/nicer_syntax.hpp
+cppcoro/io_service.hpp
+-
+cppcoro/sync_wait.hpp
+-
+cppcoro/when_all.hpp
+-
+cppcoro/task.hpp
+-
+cppcoro/schedule_on.hpp
+-
+

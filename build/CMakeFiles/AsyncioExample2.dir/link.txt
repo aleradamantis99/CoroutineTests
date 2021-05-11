@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/AsyncioExample2.dir/main_asyncio2.cpp.o  -o AsyncioExample2  -lcppcoro -lpthread -lfmt -luring 
